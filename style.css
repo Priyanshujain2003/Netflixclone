@@ -1,0 +1,223 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body
+{
+background-color: rgb(51, 51, 51);
+}
+
+
+
+
+.bg
+
+/* background image me height width dena jruri hai */
+    {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.9) 100%), url('bg7.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15px;
+    padding-left: 8%;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 8%;
+}
+
+.logo-1 {
+    width: 130px;
+}
+
+
+
+.button select {
+    padding: 5px;
+    outline: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+a {
+    padding: 7px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(188, 27, 27);
+}
+
+/* text */
+.text {
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.text h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text .pj {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 23px;
+}
+
+
+.put {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    background: none;
+    border: 2px solid rgb(44, 44, 44);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+}
+
+::placeholder {
+    font-size: 18px;
+    color: rgb(182, 179, 179);
+}
+
+.anchor {
+    padding: 18px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.anchor:hover {
+    background-color: rgb(188, 27, 27);
+}
+
+.fa-solid {
+    padding-left: 20px;
+}
+
+
+
+
+.box
+{
+    width: 100%;
+    background-color: black;
+    height: 60vh;
+    margin-top: 8px;
+    display: flex;
+}
+
+
+
+.content
+{
+    width: 50%;
+    height: 60vh; 
+}
+
+.content h2
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.content h4
+{
+color: white;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20%;
+margin-top: 20px;
+font-weight: bolder;
+}
+
+.side
+{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.side img
+{
+    /* width: 500px; */
+    height: 300px;
+   margin-right: 30%; 
+}
+
+/* second */
+.side .side-1
+{
+    height: 300px;
+   margin-left: 40%; 
+}
+
+.content .heading
+{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.content .heading-1
+{
+color: white;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 20%;
+margin-top: 20px;
+font-weight: bolder;
+}
